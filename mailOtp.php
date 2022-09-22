@@ -30,10 +30,10 @@ function mailOtp($email, $idMarchand)
         $mail->SMTPAuth = true;
 
         //SMTP username
-        $mail->Username = 'ibrahim@diool.com';
+        $mail->Username = 'your email';
 
         //SMTP password
-        $mail->Password = 'Peti nono#';
+        $mail->Password = 'pour email password';
 
         $mail->SMTPOptions = array(
             'ssl' => array(
